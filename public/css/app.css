@@ -47,6 +47,19 @@ div {
   height: 100%;
 }
 
+.navbar h1 {
+  font-size: 24px;
+}
+
+.navbar {
+  max-height: 50px;
+}
+
+.logo {
+  height: 30px;
+}
+
+
 .responsive-columns-wrapper {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -80,7 +93,7 @@ div {
   margin: 0.75rem;
   overflow-y: auto;
   overflow-x: hidden;
-  height: calc(100% - 4rem);
+  height: calc(100% - 9rem);
 }
 
 .message-inner {
