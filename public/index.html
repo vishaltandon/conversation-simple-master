@@ -11,11 +11,17 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+
+  <!-- TOGGLE FULL SCREEN CODE BUTTON -->
   <div id="view-change-button" class="button" onclick="PayloadPanel.togglePanel(event, this)">
     <img class="option full" src="../img/Chat Button.png">
     <img class="option not-full" src="../img/Code Button.png">
   </div>
+
+  <!-- CONTENT STARTS BELOW -->
   <div id="contentParent" class="responsive-columns-wrapper">
+
+    <!-- VIRTUAL AGENT BLOCK -->
     <div id="chat-column-holder" class="responsive-column content-column">
       <div class="chat-column">
         <div id="scrollingChat"></div>
@@ -26,6 +32,8 @@
         </label>
       </div>
     </div>
+    
+    <!-- CODE COLUMN -->
     <div id="payload-column" class="fixed-column content-column">
       <div id="payload-initial-message">
         Type something to see the output
