@@ -15,6 +15,15 @@ div {
   line-height: 1.25rem;
 }
 
+.main-container {
+  max-height: 100%;
+}
+
+.footer {
+  height:300px;
+  background-color: #D925A4;
+}
+
 #view-change-button {
   display: inline-block;
   position: absolute;
@@ -47,17 +56,39 @@ div {
   height: 100%;
 }
 
-.navbar h1 {
-  font-size: 24px;
-}
-
 .navbar {
   max-height: 50px;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
+.navbar .container-fluid {
+  justify-content: ;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  /*padding: top left bottom right */
+}
+
+.navbar-nav li{
+  padding: 10px 10px 10px 10px;
+}
+
+.navbar-nav a{
+  color: #1DAEEB;
+  font-size: 1rem;
+}
+
 .logo {
   height: 30px;
+}
+
+.header {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  vertical-align: middle;
+  color: #000000;
+  font-weight: bold;
 }
 
 
@@ -93,7 +124,7 @@ div {
 }
 
 #scrollingChat {
-  margin: 0.75rem;
+  margin: 1rem 1rem 1rem 1rem;
   overflow-y: auto;
   overflow-x: hidden;
   height: calc(100% - 9rem);
