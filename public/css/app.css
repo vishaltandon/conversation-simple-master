@@ -188,13 +188,18 @@ div {
   text-align: right;
 }
 
+.from-user.top.latest .message-inner {
+  background: #1DAEEB;
+  color: #FFFFFF;
+}
+
 .from-user .message-inner {
   position: relative;
   font-size: 1rem;
-  color: #fff;
+  color: #FFFFFF;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
-  background: #1DAEEB;
+  background: #B1E9FF;
   border-radius: 1.25rem;
   border-bottom-right-radius: 0;
   text-align: left;
@@ -210,9 +215,9 @@ div {
 
 .from-user .message-inner:before, .from-user .message-inner:after {
   content: "";
+  background-image: url("../img/robo.png");
   position: absolute;
 }
-
 
 .from-user .message-inner:before {
   z-index: -2;
@@ -224,13 +229,24 @@ div {
 }
 
 .from-user .message-inner:after {
-  z-index: -1;
-  bottom: -0.5rem;
-  right: 0;
+  z-index: 1;
+  top:0;
+  right: -3.5rem;
   height: 0.5rem;
   width: 0.5rem;
-  background: #fff;
   border-top-right-radius: 1.25rem;
+}
+
+.from-user.latest.top .message-inner:after {
+  content: "";
+  background-image: url("../img/user.png");
+  background-size: 3rem;
+  position: absolute;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  line-height: 1.3125rem;
+  background-repeat: no-repeat;
 }
 
 .from-watson .message-inner {
@@ -252,16 +268,16 @@ div {
 }
 
 .from-watson.latest.top p:before {
-  content: ".";
-  color: #9855D4;
-  background-image: url("../img/marker_image.png");
-  background-size: 0.3125rem 1.3125rem;
+  content: "";
+  background-image: url("../img/robo.png");
+  background-size: 3rem;
   position: absolute;
   z-index: 2;
   left: 0.4375rem;
-  width: 0.3125rem;
-  height: 1.3125rem;
+  width: 3rem;
+  height: 3rem;
   line-height: 1.3125rem;
+  background-repeat: no-repeat;
 }
 
 #textInput {
