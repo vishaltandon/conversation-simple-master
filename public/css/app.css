@@ -66,15 +66,49 @@ div {
 .container-footer {
     margin-right: auto;
     margin-left: auto;
-    background: #000000;
+    background: #F1F1F1;
 }
 
 .examples {
-  background: #000000;
-  height:100px;
+  background: #FFFFFF;
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.bubble {
+  font-size: 1rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.3125rem;
+  display:inline-block;
+  border-radius: 1.25rem;
+  background-color: #1DAEEB;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+  padding: 0.25rem 1rem;
+  width: 100%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.help {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 1rem 4rem;
+  padding-bottom: 1rem;
+  color: #000000;
+  text-align: center;
+}
+
+.footer {
+  background: #222222;
+  color: #FFFFFF;
+  height: 100px;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
 #view-change-button {
