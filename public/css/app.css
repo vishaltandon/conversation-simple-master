@@ -84,9 +84,14 @@ div {
   border-radius: 1.25rem;
   background-color: #1DAEEB;
   color: #FFFFFF;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   padding: 0.25rem 1rem;
   width: 100%;
+  text-align: center;
+}
+
+br {
+  line-height: 20px;
 }
 
 .row {
@@ -196,7 +201,7 @@ div {
 
 .chat-column {
   height: 100%;
-  padding: 0.9375rem 0 0.625rem 0;
+  padding: 1rem 0 0 0;
   margin: auto;
   text-align: left;
   max-width: 800px;
