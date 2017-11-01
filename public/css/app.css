@@ -260,10 +260,15 @@ br {
 }
 
 #scrollingChat {
-  margin: 4rem 1rem 1rem 1rem;
+  margin: 3rem 1rem 1rem 1rem;
+  padding: 1rem
   overflow-y: auto;
   overflow-x: hidden;
   height: calc(100% - 9rem);
+}
+
+.segments .load {
+  padding-top: 1rem;
 }
 
 .message-inner {
@@ -371,7 +376,7 @@ br {
 }
 
 .from-watson p {
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: 0 4rem;
 }
 
