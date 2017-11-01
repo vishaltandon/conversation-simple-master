@@ -1,39 +1,25 @@
 <html>
 <head>
   <base href="/">
-  <title>Conversation Chat App</title>
+  <title>Watson Conversation Services Demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
   <meta property="og:title" content="Conversation Chat Simple" />
-  <meta property="og:description" content="Sample application that shows how to use the Conversation API to identify user intents" />
+  <meta property="og:description" content="Watson demo for QBE Workday" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/app.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/set.js"></script>
 </head>
-<body>
+<body class="login-bg">
+
 <!-- START CONTENT -->
+<div class="container-login">
 
-<!--
-function check(form)/*function to check userid & password*/
-{
- /*the following code checkes whether the entered userid and password are matching*/
- if(form.userid.value == "qbetest" && form.pswrd.value == "eyebeeM2017")
-  {
-    window.open('/content.html')/*opens the target page while Id & password matches*/
-  }
- else
- {
-   alert("Error Password or Username")/*displays error message*/
-  }
-}
--->
-<div class="container">
-
-  <h1>Watson Conversation Services Demo</h1>
-  <form name="login">
+  <h1 class=login-title>Watson Conversation Services Demo</h1>
+  <form name="login"> <!--      qbetest eyebeeM2017 -->
     <div class="form-group">
       <div class="input-group">
         <div class="input-group-addon"><div class="glyphicon glyphicon-user"></div></div>
@@ -46,17 +32,12 @@ function check(form)/*function to check userid & password*/
         <input type="password" name="pswrd" class="form-control" placeholder="Password">
       </div>
     </div>
-    <button type="submit" class="btn btn-default" onclick="check(this.form)" value="Login">Sign In</button>
+    <button type="submit" class="btn btn-block" onclick="check(this.form)" value="Login">Sign In</button>
     <!-- <button type="reset" class="btn btn-default" value="Cancel">Cancel</button> -->
   </form>
-
 </div>
-
-<p>
-   qbetest eyebeeM2017
-</p>
-
 <!-- END CONTENT -->
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

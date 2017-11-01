@@ -15,6 +15,56 @@ div {
   line-height: 1.25rem;
 }
 
+.login-bg {
+  background-image: url(/img/bg.png);
+}
+
+.login-title {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.container-login {
+  position: absolute;
+  margin:auto;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  max-height: 340px;
+  max-width: 500px;
+  background-color: #263238;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.btn-block {
+  background-color: #1DAEEB;
+  color: #FFFFFF;
+  height: 60px;
+  font-size:1.5rem;
+}
+
+.btn-block:hover {
+  background-color: #69F0AE;
+}
+
+.btn-block:focus, .btn-block:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #B9F6CA;
+}
+
+.input-group-addon {
+  background-color: #CFD8DC;
+  border: 0;
+}
+
+.form-control {
+  border: 0;
+}
+
 .main-container {
   max-height: 100%;
 }
