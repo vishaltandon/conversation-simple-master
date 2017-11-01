@@ -30,13 +30,27 @@ function check(form)/*function to check userid & password*/
   }
 }
 -->
-<h1>Simple Login Page</h1>
-<form name="login">
-Username<input type="text" name="userid"/>
-Password<input type="password" name="pswrd"/>
-<input type="button" onclick="check(this.form)" value="Login"/>
-<input type="reset" value="Cancel"/>
-</form>
+<div class="container">
+
+  <h1>Watson Conversation Services Demo</h1>
+  <form name="login">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon"><div class="glyphicon glyphicon-user"></div></div>
+        <input type="text" name="userid" class="form-control" placeholder="Username">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-addon"><div class="glyphicon glyphicon-lock"></div></div>
+        <input type="password" name="pswrd" class="form-control" placeholder="Password">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-default" onclick="check(this.form)" value="Login">Sign In</button>
+    <!-- <button type="reset" class="btn btn-default" value="Cancel">Cancel</button> -->
+  </form>
+
+</div>
 
 <p>
    qbetest eyebeeM2017
